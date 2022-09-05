@@ -8,7 +8,7 @@ sections:
   label: Posts
   create: all
 - type: directory
-  path: site/_testimonials
+  path: site/collections/_testimonials
   label: Testimonials
   create: all
   match: "**/*"
