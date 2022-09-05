@@ -7,19 +7,18 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
-  match: "**/*"
 - type: directory
   path: site/_testimonials
   label: Testimonials
   create: all
   match: "**/*"
 - type: directory
-  path: site/_projects
+  path: site/collections/_projects
   label: Projects
   create: all
   match: "**/*"
 - type: directory
-  path: site/_pages
+  path: site/collections/_pages
   label: Pages
   create: all
   match: "**/*"
