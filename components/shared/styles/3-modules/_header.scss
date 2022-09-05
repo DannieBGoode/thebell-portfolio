@@ -28,7 +28,6 @@
   line-height: 26px;
   letter-spacing: -1px;
   font-weight: 900;
-  text-transform: uppercase;
 
   &:hover {
     color: $text-color;
@@ -45,6 +44,7 @@
   align-items: center;
   width: 100%;
   margin-left: 100px;
+  justify-content: end;
 
   .social {
     margin-left: auto;

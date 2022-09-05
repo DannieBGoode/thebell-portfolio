@@ -1,9 +1,10 @@
 GIT
   remote: https://github.com/CloudCannon/jekyll-watch
-  revision: 328940540e279e77a83eb60ad7c3a94a848f8821
+  revision: d220b890e179afc1c518d34c32be8bf168b19ace
   specs:
     jekyll-watch (2.2.1)
       listen (~> 3.0)
+      wdm (~> 0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -23,7 +24,9 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
+    eventmachine (1.2.7-x64-mingw32)
     ffi (1.15.4)
+    ffi (1.15.4-x64-mingw32)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     i18n (1.8.10)
@@ -46,7 +49,7 @@ GEM
     jekyll-bookshop (2.2.2)
       dry-inflector (>= 0.1, < 1.0)
       jekyll (>= 3.7, < 5.0)
-    jekyll-pagebreak (0.6.0)
+    jekyll-pagebreak (0.9.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
@@ -76,14 +79,22 @@ GEM
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
+    sassc (2.4.0-x64-mingw32)
+      ffi (~> 1.9)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     toml-rb (2.1.0)
       citrus (~> 3.0, > 3.0)
+    tzinfo (2.0.5)
+      concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2022.3)
+      tzinfo (>= 1.0.0)
     unicode-display_width (1.8.0)
+    wdm (0.1.1)
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   cloudcannon-jekyll-bookshop (= 2.2.2)
@@ -92,6 +103,7 @@ DEPENDENCIES
   jekyll-sitemap
   jekyll-tagging
   jekyll-watch!
+  tzinfo-data
 
 BUNDLED WITH
-   2.1.4
+   2.3.21
