@@ -26,6 +26,13 @@
 		font-size: 20px;
 		font-weight: 600;
 
+		a {
+			color: $primary-color;
+		}
+		a:hover {
+			color: $secondary-color;
+		}
+
 		@media only screen and (max-width: $mobile) {
 			font-size: 16px;
 		}
