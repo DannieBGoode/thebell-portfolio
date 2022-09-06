@@ -1,24 +1,25 @@
 <!-- begin footer -->
-<footer class="footer">
+{% if footer == white %}
+  {% assign whiteFooter = 'white-footer' %}
+{% endif %}
+<footer class="footer {{ whiteFooter }}">
   <div class="container">
     <div class="row">
       <div class="col col-12">
 
         {% bookshop_include social-link %}
 
-        {% if footer == white %}
-          {% assign whiteClass = 'white-footer' %}
-        {% endif %}
+        
 
         <ul class="footer_nav list-reset">
           {% for item in site.data.footer.footer_menu__settings.menu__items %}
           <li class="footer_nav__item">
-            <a href="{{ item.url | relative_url }}" class="footer_nav__link {{ whiteClass }}">{{ item.title }}</a>
+            <a href="{{ item.url | relative_url }}" class="footer_nav__link {{ whiteFooter }}">{{ item.title }}</a>
           </li>
           {% endfor %}
         </ul>
 
-        <div class="copyright {{ whiteClass }}">{{ site.data.footer.copyright_text_html }}</div>
+        <div class="copyright {{ whiteFooter }}">{{ site.data.footer.copyright_text_html }}</div>
 
       </div>
     </div>

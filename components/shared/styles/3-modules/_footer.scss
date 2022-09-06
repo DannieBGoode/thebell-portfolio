@@ -5,6 +5,9 @@
   padding: 96px 0 60px;
   overflow: hidden;
   background: linear-gradient(90deg, $primary-color 0%, $secondary-color 167%);
+  &.white-footer {
+    background: white;
+  }
 
   .social {
     margin-bottom: 40px;
@@ -54,6 +57,9 @@
       font-size: 16px;
       font-weight: 600;
       color: $white;
+      &.white-footer {
+        color: $dark;
+      }
     }
   }
 
@@ -80,6 +86,12 @@
   line-height: 1.5;
   text-align: center;
   color: rgba($white, 0.7);
+  &.white-footer {
+    color: $dark;
+    a {
+      color: $dark;
+    }
+  }
 
   p {
     margin: 0;
