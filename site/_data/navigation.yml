@@ -4,8 +4,8 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Projects'
-      url: '/projects/'
+    - title: 'Home2'
+      url: '/home/'
     - url: '/about/'
       title: 'About'
 #    - title: 'Pages'
