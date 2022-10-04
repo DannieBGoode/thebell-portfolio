@@ -17,7 +17,7 @@ collections:
         fields:
           - label: "Navigation Menu"
             name: "menu__settings"
-            widget: 'list'
+            widget: 'object'
             fields:
               - label: "Navigation Menu"
                 name: "menu__items"
