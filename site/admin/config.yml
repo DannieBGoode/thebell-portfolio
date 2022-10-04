@@ -16,11 +16,14 @@ collections:
         file: "site/_data/navigation.yml"
         fields:
           - label: "Navigation Menu"
-            name: "menu__items"
-            widget: "list"
+            name: "menu__settings"
             fields:
-              - { label: Name, name: title, widget: string }
-              - { label: Link, name: url, widget: string }
+              - label: "Navigation Menu"
+                name: "menu__items"
+                widget: "list"
+                fields:
+                  - { label: Name, name: title, widget: string }
+                  - { label: Link, name: url, widget: string }
       - label: "Social Links"
         name: "social"
         file: "site/_data/social_links.yml"
