@@ -17,6 +17,7 @@ collections:
         fields:
           - label: "Navigation Menu"
             name: "menu__settings"
+            widget: 'list'
             fields:
               - label: "Navigation Menu"
                 name: "menu__items"
@@ -29,7 +30,7 @@ collections:
         file: "site/_data/social_links.yml"
         fields:
           - label: "Social Links"
-            name: "items"
+            name: "social"
             widget: "list"
             fields:
               - { label: Name, name: icon, widget: string }
