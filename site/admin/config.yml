@@ -21,7 +21,18 @@ collections:
             fields:
               - { label: Name, name: title, widget: string }
               - { label: Link, name: url, widget: string }
+      - label: "Social Links"
+        name: "social"
+        file: "_data/social_links.yml"
+        fields:
+          - label: "Social Links"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: Name, name: icon, widget: string }
+              - { label: Link, name: link, widget: string }
       - label: "Contact Section"
+        name: ''
         file: "_data/contact.yml"
         fields:
           - { label: Name, name: form_title, widget: string }
