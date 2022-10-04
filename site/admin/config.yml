@@ -12,7 +12,7 @@ collections:
       preview: false
     files:
       - label: "Navigation"
-        name: "menu__settings"
+        name: "navigation"
         file: "site/_data/navigation.yml"
         fields:
           - label: "Navigation Menu"
