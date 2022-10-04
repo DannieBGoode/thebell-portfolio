@@ -21,7 +21,7 @@ collections:
             fields:
               - label: "Navigation Menu"
                 name: "menu__items"
-                widget: "list"
+                widget: "object"
                 fields:
                   - { label: Name, name: title, widget: string }
                   - { label: Link, name: url, widget: string }
@@ -31,7 +31,7 @@ collections:
         fields:
           - label: "Social Links"
             name: "social"
-            widget: "list"
+            widget: "object"
             fields:
               - { label: Name, name: icon, widget: string }
               - { label: Link, name: link, widget: string }
