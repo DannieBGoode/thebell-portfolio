@@ -25,7 +25,7 @@ collections:
       preview: false
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: "Published", name: "published", widget: "boolean", default: true}
+      - { label: "Published", name: "published", widget: "boolean", hint: "Is this project live?", default: true}
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'string' }
