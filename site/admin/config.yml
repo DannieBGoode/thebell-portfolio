@@ -20,7 +20,7 @@ collections:
     label: 'Projects'
     folder: 'site/collections/_projects/'
     create: true
-    sortable_fields: ['commit_date', 'date', 'title', 'published']
+    sortable_fields: ['commit_date', 'filename', 'title', 'published']
     view_filters:
       - label: Drafts
         field: published
