@@ -1,7 +1,9 @@
 ---
+published: true
 title: Imdb Redesign
 subtitle: Product Design
-image: '/images/projects/imdb/imdb-cover.png'
+description: Imdb Redesign
+image: /images/projects/imdb/imdb-cover.png
 ---
 This was an excercise to redesign the imdb home page done for an assignment for the masters *Digital Content Management* offered by the *University of Barcelona*.
 
