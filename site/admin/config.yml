@@ -6,39 +6,33 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 media_folder: 'assets/uploads'
 collections:
-  - name: 'configuration'
-    label: 'Global Site Configuration'
-    folder: 'site/_data'
-    editor:
-      preview: false
-    files:
-      - label: "Navigation"
-        name: "menu__settings"
-        file: "_data/navigation.yml"
+  - label: "Navigation"
+    name: "menu__settings"
+    file: "_data/navigation.yml"
+    fields:
+      - label: "Navigation Menu"
+        name: "menu__items"
+        widget: "list"
         fields:
-          - label: "Navigation Menu"
-            name: "menu__items"
-            widget: "list"
-            fields:
-              - { label: Name, name: title, widget: string }
-              - { label: Link, name: url, widget: string }
+          - { label: Name, name: title, widget: string }
+          - { label: Link, name: url, widget: string }
+  - label: "Social Links"
+    name: "social"
+    file: "_data/social_links.yml"
+    fields:
       - label: "Social Links"
-        name: "social"
-        file: "_data/social_links.yml"
+        name: "items"
+        widget: "list"
         fields:
-          - label: "Social Links"
-            name: "items"
-            widget: "list"
-            fields:
-              - { label: Name, name: icon, widget: string }
-              - { label: Link, name: link, widget: string }
-      - label: "Contact Section"
-        file: "_data/contact.yml"
-        fields:
-          - { label: Name, name: form_title, widget: string }
-          - { label: Description, name: form_description, widget: string }
-          - { label: Email, name: form_submission_email, widget: string }
-          - { label: Button Text, name: form_button_text, widget: string }
+          - { label: Name, name: icon, widget: string }
+          - { label: Link, name: link, widget: string }
+  - label: "Contact Section"
+    file: "_data/contact.yml"
+    fields:
+      - { label: Name, name: form_title, widget: string }
+      - { label: Description, name: form_description, widget: string }
+      - { label: Email, name: form_submission_email, widget: string }
+      - { label: Button Text, name: form_button_text, widget: string }
   - name: 'pages'
     label: 'Pages'
     folder: 'site/collections/_pages/'
