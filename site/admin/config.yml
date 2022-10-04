@@ -20,11 +20,14 @@ collections:
     label: 'Projects'
     folder: 'site/collections/_projects/'
     create: true
-    sortable_fields: ['date', 'title', 'published']
+    sortable_fields: ['commit_date', 'date', 'title', 'published']
     view_filters:
       - label: Drafts
         field: published
         pattern: false
+      - label: Published
+        field: published
+        pattern: true
     slug: '{{slug}}'
     editor:
       preview: false
@@ -32,7 +35,7 @@ collections:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: '_project' }
       - { label: 'Published', name: 'published', widget: 'boolean', hint: 'Enable this checkbox to publish the project so that it is visible', default: true}
       - { label: 'Title', name: 'title', hint: 'Title that will be displayed for this project', widget: 'string' }
-      - { label: 'Subtitle', name: 'subtitle', hint: 'Text under the title', widget: 'string' }
+      - { label: 'Subtitle', name: 'subtitle', hint: 'Text under the project title', widget: 'string' }
       - { label: 'Description', name: 'description', hint: 'Description for SEO purposes', widget: 'string' }
       - { label: 'Cover Image', name: 'image', widget: 'image' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
