@@ -1,7 +1,9 @@
 ---
+published: true
 title: Digital Artwork
 subtitle: Illustrations
-image: '/images/projects/artwork/artwork-cover.png'
+description: Digital Artwork of thebell
+image: /images/projects/artwork/artwork-cover.png
 ---
 Check my digital illustrations
 
