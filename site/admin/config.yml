@@ -19,7 +19,7 @@ collections:
           - { label: Description, name: description, widget: string, hint: 'Website description for SEO.' }
           - { label: Social Media on Topnav, name: social_media_on_topnav, widget: boolean, hint: 'If enabled, social icons will be displayed in the top right.' }
           - { label: Social Share Image, name: social_media_share_image, widget: image, choose_url: true, hint: 'When sharing this website this image will be used.' }
-          - { label: Footer, name: footer, widget: string, hint: 'Footer can be white or dark.' }
+          - { label: Footer, name: footer, widget: select, options: ["white", "dark"], hint: 'Footer can be white or dark.' }
           - { label: Disqus ID, name: disqus-identifier, required: false, widget: string }
           - { label: Google Analytics ID , name: google-analytics, required: false, widget: string }
       - label: "Homepage"
