@@ -30,10 +30,10 @@ collections:
           - { label: Description, name: description_html, widget: string, hint: 'Description under the hero title.' }
           - { label: Hero Image, name: image, widget: image, choose_url: true, hint: 'Image used for the Hero' }
           - { label: Image Alt, name: image_alt, widget: string, hint: 'Image description' }
-          - { label: Main CTA Text, name: cta_button, widget: string, hint: 'Button text for main CTA' }
-          - { label: Main CTA Link, name: cta_button_link, widget: string, hint: 'Link for main CTA' }
-          - { label: Secondary CTA Text, name: works_button, widget: string, hint: 'Button text for secondary CTA' }
-          - { label: Secondary CTA Link, name: works_button_link, widget: string, hint: 'Link for secondary CTA' }
+          - { label: Main CTA Text, name: cta_button, widget: string, hint: 'Button text for main CTA that takes you to the contact section' }
+          - { label: Main CTA Link, name: cta_button_link, widget: hidden, hint: 'Link for main CTA' }
+          - { label: Secondary CTA Text, name: works_button, widget: string, hint: 'Button text for secondary CTA that takes you to the project section' }
+          - { label: Secondary CTA Link, name: works_button_link, widget: hidden, hint: 'Link for secondary CTA' }
       - label: "Navigation"
         name: "navigation"
         file: "site/_data/navigation.yml"
