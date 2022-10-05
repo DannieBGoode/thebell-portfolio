@@ -1,6 +1,6 @@
 #-------------------------------
 # Newsletter Settings
-form_title: "Contact me"
-form_description: "Reach out to me through <a href='https://www.linkedin.com/in/tatianahernandezbeltran/'>Linkedin</a> or email" # Add descriptions to the form.
-form_submission_email: "tati.hbel@gmail.com" # Add your email
-form_button_text: "Contact"
+form_title: 'Contact me'
+form_description: 'Reach out to me through <a href="https://www.linkedin.com/in/tatianahernandezbeltran/">Linkedin</a> or email' # Add descriptions to the form.
+form_submission_email: 'tati.hbel@gmail.com' # Add your email
+form_button_text: 'Contact'
