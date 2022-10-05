@@ -11,6 +11,17 @@ collections:
     editor:
       preview: false
     files:
+      - label: "General"
+        name: "general"
+        file: "site/_data/general_settings.yml"
+        fields: 
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: string }
+          - { label: Social Media on Topnav, name: social_media_on_topnav, widget: boolean }
+          - { label: Hero Image, name: social_media_share_image, widget: image, choose_url: true }
+          - { label: Footer, name: footer, widget: string }
+          - { label: Disqus ID, name: disqus-identifier, required: false, widget: string }
+          - { label: Google Analytics ID , name: google-analytics, required: false, widget: string }
       - label: "Navigation"
         name: "navigation"
         file: "site/_data/navigation.yml"
