@@ -1,8 +1,8 @@
-menu__settings:
-  menu__items:
-    - title: Home
-      url: /
-    - title: Home2
-      url: /home/
-    - url: /about/
-      title: About
+# logo_image: '/images/logo.svg' # You can add own logo. For example '/images/logo.png'.
+menu__items:
+  - title: Home
+    url: /
+  - title: Home2
+    url: /home/
+  - url: /about/
+    title: About
