@@ -4,7 +4,7 @@ display_url: https://thebell-portfolio.netlify.app
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
-media_folder: 'assets/uploads'
+media_folder: 'site/assets/uploads'
 collections:
   - name: 'configuration'
     label: 'Global Configuration'
