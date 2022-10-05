@@ -1,6 +1,10 @@
 <!-- begin footer -->
-{% if footer == white %}
+{% if site.data.general_settings.footer == 'white' %}
   {% assign whiteFooter = 'white-footer' %}
+
+  {% else %}
+
+  {% assign whiteFooter = '' %}  
 {% endif %}
 <footer class="footer {{ whiteFooter }}">
   <div class="container">

@@ -15,11 +15,11 @@ collections:
         name: "general"
         file: "site/_data/general_settings.yml"
         fields: 
-          - { label: Title, name: title, widget: string }
-          - { label: Description, name: description, widget: string }
-          - { label: Social Media on Topnav, name: social_media_on_topnav, widget: boolean }
+          - { label: Title, name: title, widget: string, hint: 'Website title' }
+          - { label: Description, name: description, widget: string, hint: 'Website description for SEO' }
+          - { label: Social Media on Topnav, name: social_media_on_topnav, widget: boolean, hint: 'If enabled, social icons will be displayed in the top right' }
           - { label: Hero Image, name: social_media_share_image, widget: image, choose_url: true }
-          - { label: Footer, name: footer, widget: string }
+          - { label: Footer, name: footer, widget: string, hint: 'Footer can be white or dark' }
           - { label: Disqus ID, name: disqus-identifier, required: false, widget: string }
           - { label: Google Analytics ID , name: google-analytics, required: false, widget: string }
       - label: "Navigation"
