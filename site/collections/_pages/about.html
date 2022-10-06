@@ -1,30 +1,19 @@
 ---
-title: About
-content_blocks:
-  - _bookshop_name: page-heading
-    title: About myself
-    description:
-  - _bookshop_name: page-image
-    image: /images/about/tatiana.jpg
-    image_alt: Thebell
-  - _bookshop_name: content
-    content_html: >-
-      <h2>Who am I</h2>
-      <p>I am a UI/UX Designer that loves that which is unique and who believes that small actions can have a world wide impact.
-      </br>I specialize in planning, creativity and Design Thinking / Lean Startup based project development.</p>
-
-      <h2>What I enjoy</h2>
-      <p>I love developing projects of all sizes, from design and templating to iteration improvement of both web applications, branding and product and systems creation.
-      <br>I put special care in designing user experiences that are simple, lovely and that have a huge impact.
-      <br>I enjoy creating brand identity, icons and illustrations.</p>
-
-      <h2>My Experience</h2>
-      <p>My professional experience has centered around the development and implementation of design projects in the field of education.
-      </br>I have experience as a teacher and educational processes guide based on the Design Thinking methodology.
-      </br>I have a Masters by the UB (University of Barcelona) in Digital Content Management.</p>
-
-      <h2>My Specialties</h2>
-      <p>UI/UX, UX Research, Design Thinking, Trend Hunter, Graphic Design, Branding, Photography, Advertising photography, Art Direction.</p>
-      
+title: About   
 ---
 
+{% bookshop
+  page-heading title= site.data.about.title
+  description= site.data.about.description
+%}
+
+{% bookshop
+  page-image 
+  image= site.data.about.image
+  image_alt= site.data.about.image_alt
+%}
+
+{% bookshop
+  content
+  content_html= site.data.about.content
+%}
