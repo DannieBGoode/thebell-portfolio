@@ -54,7 +54,7 @@ collections:
       file: "site/_data/home.yml"
       fields: 
         - { label: Title, name: title, widget: string, hint: 'Hero title.' }
-        - { label: Description, name: description, widget: string, hint: 'Description under the hero title.' }
+        - { label: Subtitle, name: description, widget: string, hint: 'Description under the hero title.' }
         - { label: Hero Image, name: image, widget: image, choose_url: true, hint: 'Image used for the Hero' }
         - { label: Image Alt, name: image_alt, widget: string, hint: 'Image description for SEO purposes' }
         - { label: Main CTA Text, name: cta_button, widget: string, hint: 'Button text for main CTA that takes you to the contact section' }
@@ -69,13 +69,13 @@ collections:
       file: "site/_data/projects.yml"
       fields: 
         - { label: Title, name: title, widget: string, hint: 'Projects page title.' }
-        - { label: Description, name: description, widget: string, hint: 'Projects page description under the title.' }
+        - { label: Subtitle, name: description, widget: string, hint: 'Projects page description under the title.' }
     - label: "About Page"
       name: "about"
       file: "site/_data/about.yml"
       fields: 
         - { label: Title, name: title, widget: string, hint: 'About page title.' }
-        - { label: Description, name: description, widget: string, required: false, hint: 'Description under the title' }
+        - { label: Subtitle, name: description, widget: string, required: false, hint: 'Description under the title' }
         - { label: Image, name: image, widget: string, hint: 'Cover Image for About page' }
         - { label: Image Alt, name: image_alt, widget: string, hint: 'Image description for SEO purposes' }
         - { label: Page Content, name: content, widget: markdown, hint: 'Projects page title.' }
@@ -84,7 +84,7 @@ collections:
       file: "site/_data/contact.yml"
       fields:
         - { label: Contact Form Title, name: contact_form_title, widget: string, hint: 'Title of Projects section that is displayed in multiple pages before the footer.' }
-        - { label: Contact Form Description, name: contact_form_description, widget: string, hint: 'Description under the Project section title.' }
+        - { label: Contact Form Description, name: contact_form_description, widget: string, hint: 'Description under the Contact Form title.' }
         - { label: Contact Form Button Text, name: contact_form_button_text, widget: string, hint: 'Text of the CTA to send the Contact Form' }
   - name: 'projects'
     label: 'Projects'
