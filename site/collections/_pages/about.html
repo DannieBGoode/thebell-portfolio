@@ -13,7 +13,9 @@ title: About
   image_alt= site.data.about.image_alt
 %}
 
+{% assign contentHtml = site.data.about.content | markdownify %}
+
 {% bookshop
   content
-  content_html= site.data.about.content
+  content_html= contentHtml
 %}
