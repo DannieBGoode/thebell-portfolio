@@ -48,49 +48,49 @@ collections:
     label: 'Pages'
     editor:
       preview: false
-      files:
-      - label: "Homepage"
-        name: "home"
-        file: "site/_data/home.yml"
-        fields: 
-          - { label: Title, name: title, widget: string, hint: 'Hero title.' }
-          - { label: Description, name: description, widget: string, hint: 'Description under the hero title.' }
-          - { label: Hero Image, name: image, widget: image, choose_url: true, hint: 'Image used for the Hero' }
-          - { label: Image Alt, name: image_alt, widget: string, hint: 'Image description for SEO purposes' }
-          - { label: Main CTA Text, name: cta_button, widget: string, hint: 'Button text for main CTA that takes you to the contact section' }
-          - { label: Main CTA Link, name: cta_button_link, widget: hidden, hint: 'Link for main CTA' }
-          - { label: Secondary CTA Text, name: works_button, widget: string, hint: 'Button text for secondary CTA that takes you to the project section' }
-          - { label: Secondary CTA Link, name: works_button_link, widget: hidden, hint: 'Link for secondary CTA' }
-          - { label: Projects Title, name: projects_title, widget: string, hint: 'Title of Projects section in the homepage.' }
-          - { label: Projects Description, name: projects_description, widget: string, hint: 'Description under the Project section title.' }
-          - { label: Show Projects, name: show_projects, widget: hidden, hint: 'Are projects displayed in the homepage' }
-          - { label: Contact Form Title, name: contact_form_title, widget: string, hint: 'Title of Projects section in the homepage.' }
-          - { label: Contact Form Description, name: contact_form_description, widget: string, hint: 'Description under the Project section title.' }
-          - { label: Contact Form Button Text, name: contact_form_button_text, widget: string, hint: 'Description under the Project section title.' }
-          - { label: Contact Form Email, name: contact_form_submission_email, widget: string, hint: 'This is the email that will receive the messages of people that use the contact form.' }
-      - label: "Projects Page"
-        name: "projects"
-        file: "site/_data/projects.yml"
-        fields: 
-          - { label: Title, name: title, widget: string, hint: 'Projects page title.' }
-          - { label: Description, name: description, widget: string, hint: 'Projects page description under the title.' }
-      - label: "About Page"
-        name: "about"
-        file: "site/_data/about.yml"
-        fields: 
-          - { label: Title, name: title, widget: string, hint: 'About page title.' }
-          - { label: Description, name: description, widget: string, required: false, hint: 'Description under the title' }
-          - { label: Image, name: image, widget: string, hint: 'Cover Image for About page' }
-          - { label: Image Alt, name: image_alt, widget: string, hint: 'Image description for SEO purposes' }
-          - { label: Page Content, name: content, widget: markdown, hint: 'Projects page title.' }
-      - label: "Contact Section"
-        name: ''
-        file: "site/_data/contact.yml"
-        fields:
-          - { label: Name, name: form_title, widget: string }
-          - { label: Description, name: form_description, widget: string }
-          - { label: Email, name: form_submission_email, widget: string }
-          - { label: Button Text, name: form_button_text, widget: string }
+    files:
+    - label: "Homepage"
+      name: "home"
+      file: "site/_data/home.yml"
+      fields: 
+        - { label: Title, name: title, widget: string, hint: 'Hero title.' }
+        - { label: Description, name: description, widget: string, hint: 'Description under the hero title.' }
+        - { label: Hero Image, name: image, widget: image, choose_url: true, hint: 'Image used for the Hero' }
+        - { label: Image Alt, name: image_alt, widget: string, hint: 'Image description for SEO purposes' }
+        - { label: Main CTA Text, name: cta_button, widget: string, hint: 'Button text for main CTA that takes you to the contact section' }
+        - { label: Main CTA Link, name: cta_button_link, widget: hidden, hint: 'Link for main CTA' }
+        - { label: Secondary CTA Text, name: works_button, widget: string, hint: 'Button text for secondary CTA that takes you to the project section' }
+        - { label: Secondary CTA Link, name: works_button_link, widget: hidden, hint: 'Link for secondary CTA' }
+        - { label: Projects Title, name: projects_title, widget: string, hint: 'Title of Projects section in the homepage.' }
+        - { label: Projects Description, name: projects_description, widget: string, hint: 'Description under the Project section title.' }
+        - { label: Show Projects, name: show_projects, widget: hidden, hint: 'Are projects displayed in the homepage' }
+        - { label: Contact Form Title, name: contact_form_title, widget: string, hint: 'Title of Projects section in the homepage.' }
+        - { label: Contact Form Description, name: contact_form_description, widget: string, hint: 'Description under the Project section title.' }
+        - { label: Contact Form Button Text, name: contact_form_button_text, widget: string, hint: 'Description under the Project section title.' }
+        - { label: Contact Form Email, name: contact_form_submission_email, widget: string, hint: 'This is the email that will receive the messages of people that use the contact form.' }
+    - label: "Projects Page"
+      name: "projects"
+      file: "site/_data/projects.yml"
+      fields: 
+        - { label: Title, name: title, widget: string, hint: 'Projects page title.' }
+        - { label: Description, name: description, widget: string, hint: 'Projects page description under the title.' }
+    - label: "About Page"
+      name: "about"
+      file: "site/_data/about.yml"
+      fields: 
+        - { label: Title, name: title, widget: string, hint: 'About page title.' }
+        - { label: Description, name: description, widget: string, required: false, hint: 'Description under the title' }
+        - { label: Image, name: image, widget: string, hint: 'Cover Image for About page' }
+        - { label: Image Alt, name: image_alt, widget: string, hint: 'Image description for SEO purposes' }
+        - { label: Page Content, name: content, widget: markdown, hint: 'Projects page title.' }
+    - label: "Contact Section"
+      name: ''
+      file: "site/_data/contact.yml"
+      fields:
+        - { label: Name, name: form_title, widget: string }
+        - { label: Description, name: form_description, widget: string }
+        - { label: Email, name: form_submission_email, widget: string }
+        - { label: Button Text, name: form_button_text, widget: string }
   - name: 'projects'
     label: 'Projects'
     folder: 'site/collections/_projects/'
