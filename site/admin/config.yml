@@ -15,9 +15,9 @@ collections:
         name: "general"
         file: "site/_data/general_settings.yml"
         fields: 
-          - { label: Title, name: title, widget: string, hint: 'Website title.' }
+          - { label: Title, name: title, widget: string, hint: 'Website title that appears on every page on the top left.' }
           - { label: Description, name: description, widget: string, hint: 'Website description for SEO.' }
-          - { label: Social Media on Topnav, name: social_media_on_topnav, widget: boolean, hint: 'If enabled, social icons will be displayed in the top right.' }
+          - { label: Social Media on Topnav, name: social_media_on_topnav, widget: boolean, hint: 'If enabled, social icons will be displayed in the top right and the nav menu moved to the top left.' }
           - { label: Social Share Image, name: social_media_share_image, widget: image, choose_url: true, hint: 'When sharing this website this image will be used.' }
           - { label: Footer, name: footer, widget: select, options: ["white", "dark"], hint: 'Footer can be white or dark.' }
           - { label: Disqus ID, name: disqus-identifier, required: false, widget: string }
@@ -40,6 +40,7 @@ collections:
           - { label: Contact Form Title, name: contact_form_title, widget: string, hint: 'Title of Projects section in the homepage.' }
           - { label: Contact Form Description, name: contact_form_description, widget: string, hint: 'Description under the Project section title.' }
           - { label: Contact Form Button Text, name: contact_form_button_text, widget: string, hint: 'Description under the Project section title.' }
+          - { label: Contact Form Email, name: contact_form_submission_email, widget: string, hint: 'This is the email that will receive the messages of people that use the contact form.' }
       - label: "Projects Page"
         name: "projects"
         file: "site/_data/projects.yml"
@@ -85,17 +86,6 @@ collections:
           - { label: Description, name: form_description, widget: string }
           - { label: Email, name: form_submission_email, widget: string }
           - { label: Button Text, name: form_button_text, widget: string }
-  - name: 'pages'
-    label: 'Pages'
-    folder: 'site/collections/_pages/'
-    create: true
-    slug: '{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'content_blocks Date', name: 'date', widget: 'datetime' }
   - name: 'projects'
     label: 'Projects'
     folder: 'site/collections/_projects/'
