@@ -51,7 +51,7 @@ collections:
         file: "site/_data/about.yml"
         fields: 
           - { label: Title, name: title, widget: string, hint: 'About page title.' }
-          - { label: Description, name: description, widget: string, hint: 'Description under the title' }
+          - { label: Description, name: description, widget: string, required: false, hint: 'Description under the title' }
           - { label: Image, name: image, widget: string, hint: 'Cover Image for About page' }
           - { label: Image Alt, name: image_alt, widget: string, hint: 'Image description for SEO purposes' }
           - { label: Page Content, name: content, widget: markdown, hint: 'Projects page title.' }
