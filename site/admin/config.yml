@@ -64,9 +64,6 @@ collections:
         - { label: Projects Title, name: projects_title, widget: string, hint: 'Title of Projects section in the homepage.' }
         - { label: Projects Description, name: projects_description, widget: string, hint: 'Description under the Project section title.' }
         - { label: Show Projects, name: show_projects, widget: hidden, hint: 'Are projects displayed in the homepage' }
-        - { label: Contact Form Title, name: contact_form_title, widget: string, hint: 'Title of Projects section in the homepage.' }
-        - { label: Contact Form Description, name: contact_form_description, widget: string, hint: 'Description under the Project section title.' }
-        - { label: Contact Form Button Text, name: contact_form_button_text, widget: string, hint: 'Description under the Project section title.' }
     - label: "Projects Page"
       name: "projects"
       file: "site/_data/projects.yml"
@@ -86,10 +83,9 @@ collections:
       name: ''
       file: "site/_data/contact.yml"
       fields:
-        - { label: Name, name: form_title, widget: string }
-        - { label: Description, name: form_description, widget: string }
-        - { label: Email, name: form_submission_email, widget: string }
-        - { label: Button Text, name: form_button_text, widget: string }
+        - { label: Contact Form Title, name: contact_form_title, widget: string, hint: 'Title of Projects section that is displayed in multiple pages before the footer.' }
+        - { label: Contact Form Description, name: contact_form_description, widget: string, hint: 'Description under the Project section title.' }
+        - { label: Contact Form Button Text, name: contact_form_button_text, widget: string, hint: 'Text of the CTA to send the Contact Form' }
   - name: 'projects'
     label: 'Projects'
     folder: 'site/collections/_projects/'
