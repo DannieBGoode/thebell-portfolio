@@ -22,6 +22,33 @@ collections:
           - { label: Footer, name: footer, widget: select, options: ["white", "dark"], hint: 'Footer can be white or dark.' }
           - { label: Disqus ID, name: disqus-identifier, required: false, widget: string }
           - { label: Google Analytics ID , name: google-analytics, required: false, widget: string }
+      - label: "Navigation"
+        name: "navigation"
+        file: "site/_data/navigation.yml"
+        fields:
+          - label: "Navigation Menu"
+            name: "menu__items"
+            widget: "list"
+            collapse: false
+            fields:
+              - { label: Name, name: title, widget: string }
+              - { label: Link, name: url, widget: string }
+      - label: "Social Links"
+        name: "social"
+        file: "site/_data/social_links.yml"
+        fields:
+          - label: "Social Links"
+            name: "social"
+            widget: "list"
+            collapse: false
+            fields:
+              - { label: Name, name: icon, widget: string }
+              - { label: Link, name: link, widget: string }
+  - name: 'pages'
+    label: 'Pages'
+    editor:
+      preview: false
+      files:
       - label: "Homepage"
         name: "home"
         file: "site/_data/home.yml"
@@ -56,28 +83,6 @@ collections:
           - { label: Image, name: image, widget: string, hint: 'Cover Image for About page' }
           - { label: Image Alt, name: image_alt, widget: string, hint: 'Image description for SEO purposes' }
           - { label: Page Content, name: content, widget: markdown, hint: 'Projects page title.' }
-      - label: "Navigation"
-        name: "navigation"
-        file: "site/_data/navigation.yml"
-        fields:
-          - label: "Navigation Menu"
-            name: "menu__items"
-            widget: "list"
-            collapse: false
-            fields:
-              - { label: Name, name: title, widget: string }
-              - { label: Link, name: url, widget: string }
-      - label: "Social Links"
-        name: "social"
-        file: "site/_data/social_links.yml"
-        fields:
-          - label: "Social Links"
-            name: "social"
-            widget: "list"
-            collapse: false
-            fields:
-              - { label: Name, name: icon, widget: string }
-              - { label: Link, name: link, widget: string }
       - label: "Contact Section"
         name: ''
         file: "site/_data/contact.yml"
