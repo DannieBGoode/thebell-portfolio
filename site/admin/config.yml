@@ -34,6 +34,12 @@ collections:
           - { label: Main CTA Link, name: cta_button_link, widget: hidden, hint: 'Link for main CTA' }
           - { label: Secondary CTA Text, name: works_button, widget: string, hint: 'Button text for secondary CTA that takes you to the project section' }
           - { label: Secondary CTA Link, name: works_button_link, widget: hidden, hint: 'Link for secondary CTA' }
+          - { label: Projects Title, name: projects_title, widget: string, hint: 'Title of Projects section in the homepage.' }
+          - { label: Projects Description, name: projects_description, widget: string, hint: 'Description under the Project section title.' }
+          - { label: Show Projects, name: show_projects, widget: hidden, hint: 'Are projects displayed in the homepage' }
+          - { label: Contact Form Title, name: contact_form_title, widget: string, hint: 'Title of Projects section in the homepage.' }
+          - { label: Contact Form Description, name: contact_form_description, widget: string, hint: 'Description under the Project section title.' }
+          - { label: Contact Form Button Text, name: contact_form_button_text, widget: string, hint: 'Description under the Project section title.' }
       - label: "Navigation"
         name: "navigation"
         file: "site/_data/navigation.yml"
