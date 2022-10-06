@@ -2,8 +2,27 @@
 title: Home
 ---
 
-{% include hero.html %}
+{% bookshop
+  hero title= site.data.home.title
+  description_html= site.data.home.description
+  cta_button= site.data.home.cta_button
+  cta_button_link= site.data.home.cta_button_link
+  works_button= site.data.home.works_button
+  works_button= site.data.home.works_button_link
+  image= site.data.home.image
+  hero_image_alt= site.data.home.hero_image_alt
+%}
 
-{% include project-section.html %}
+{% bookshop
+  projects-section title= site.data.home.projects_title
+  description_html= site.data.home.projects_description
+  link_url= site.data.home.works_button_link
+  show_projects= site.data.home.show_projects
+%}
 
-{% include contact-form.html %}
+{% bookshop
+  contact-form form_title= site.data.home.contact_form_title
+  form_description= site.data.home.contact_form_description
+  form_submission_email= site.data.home.contact_form_submission_email
+  form_button_text= site.data.home.contact_form_button_text
+%}

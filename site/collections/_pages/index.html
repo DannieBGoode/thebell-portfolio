@@ -1,14 +1,19 @@
 ---
 title: Projects
-content_blocks:
-  - _bookshop_name: page-heading
-    title: Portfolio
-    description: I show only my best works built completely with passion, simplicity, and creativity!
-  - _bookshop_name: projects-list
-    show_projects: true
-  - _bookshop_name: contact-form-simple
-    form_title: Contact me
-    form_description: Reach out to me through <a href="https://www.linkedin.com/in/tatianahernandezbeltran/">Linkedin</a> or email
-    form_submission_email: danielcalatayudf@gmail.com
-    form_button_text: Send now
 ---
+
+{% bookshop
+  page-heading title= site.data.projects.title
+  description= site.data.projects.description
+%}
+
+{% bookshop
+  projects-list show_projects=true
+%}
+
+{% bookshop
+  contact-form-simple form_title=site.data.contact.form_title
+  form_description=site.data.contact.form_description
+  form_identifier=site.data.contact.form_identifier
+  form_button=site.data.contact.form_button
+%}

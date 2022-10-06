@@ -27,7 +27,7 @@ collections:
         file: "site/_data/home.yml"
         fields: 
           - { label: Title, name: title, widget: string, hint: 'Hero title.' }
-          - { label: Description, name: description_html, widget: string, hint: 'Description under the hero title.' }
+          - { label: Description, name: description, widget: string, hint: 'Description under the hero title.' }
           - { label: Hero Image, name: image, widget: image, choose_url: true, hint: 'Image used for the Hero' }
           - { label: Image Alt, name: image_alt, widget: string, hint: 'Image description' }
           - { label: Main CTA Text, name: cta_button, widget: string, hint: 'Button text for main CTA that takes you to the contact section' }
@@ -40,6 +40,12 @@ collections:
           - { label: Contact Form Title, name: contact_form_title, widget: string, hint: 'Title of Projects section in the homepage.' }
           - { label: Contact Form Description, name: contact_form_description, widget: string, hint: 'Description under the Project section title.' }
           - { label: Contact Form Button Text, name: contact_form_button_text, widget: string, hint: 'Description under the Project section title.' }
+      - label: "Projects Page"
+        name: "projects"
+        file: "site/_data/projects.yml"
+        fields: 
+          - { label: Title, name: title, widget: string, hint: 'Projects page title.' }
+          - { label: Description, name: description_html, widget: string, hint: 'Projects page description under the title.' }
       - label: "Navigation"
         name: "navigation"
         file: "site/_data/navigation.yml"
