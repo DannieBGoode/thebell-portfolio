@@ -67,7 +67,6 @@ collections:
         - { label: Contact Form Title, name: contact_form_title, widget: string, hint: 'Title of Projects section in the homepage.' }
         - { label: Contact Form Description, name: contact_form_description, widget: string, hint: 'Description under the Project section title.' }
         - { label: Contact Form Button Text, name: contact_form_button_text, widget: string, hint: 'Description under the Project section title.' }
-        - { label: Contact Form Email, name: contact_form_submission_email, widget: string, hint: 'This is the email that will receive the messages of people that use the contact form.' }
     - label: "Projects Page"
       name: "projects"
       file: "site/_data/projects.yml"
