@@ -76,7 +76,7 @@ collections:
       fields: 
         - { label: Title, name: title, widget: string, hint: 'About page title.' }
         - { label: Subtitle, name: description, widget: string, required: false, hint: 'Description under the title' }
-        - { label: Image, name: image, widget: string, hint: 'Cover Image for About page' }
+        - { label: Image, name: image, widget: image, hint: 'Cover Image for About page' }
         - { label: Image Alt, name: image_alt, widget: string, hint: 'Image description for SEO purposes' }
         - { label: Page Content, name: content, widget: markdown, hint: 'Projects page title.' }
     - label: "Contact Section"
@@ -107,6 +107,6 @@ collections:
       - { label: 'Title', name: 'title', hint: 'Title that will be displayed for this project', widget: 'string' }
       - { label: 'Subtitle', name: 'subtitle', hint: 'Text under the project title', widget: 'string' }
       - { label: 'Description', name: 'description', hint: 'Description for SEO purposes', widget: 'string' }
-      - { label: 'Cover Image', name: 'image', widget: 'image' }
+      - { label: 'Cover Image', name: 'image', widget: 'image', hint: 'Thumbnail image' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       
