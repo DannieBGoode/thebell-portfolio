@@ -2,6 +2,7 @@
 published: true
 title: Digital Artwork
 subtitle: Illustrations
+date: 2021-10-08T22:00:00.000Z
 description: Digital Artwork of thebell
 image: /images/projects/artwork/artwork-cover.png
 ---
