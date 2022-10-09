@@ -1,14 +1,23 @@
 ---
-title: Projects
+title: Home
 ---
 
 {% bookshop
-  page-heading title= site.data.projects.title
-  description= site.data.projects.description
+  hero title= site.data.home.title
+  description_html= site.data.home.description
+  cta_button= site.data.home.cta_button
+  cta_button_link= site.data.home.cta_button_link
+  works_button= site.data.home.works_button
+  works_button_link= site.data.home.works_button_link
+  image= site.data.home.image
+  hero_image_alt= site.data.home.hero_image_alt
 %}
 
 {% bookshop
-  projects-list show_projects=true
+  projects-section title= site.data.home.projects_title
+  description_html= site.data.home.projects_description
+  link_url= site.data.home.works_button_link
+  show_projects= site.data.home.show_projects
 %}
 
 {% bookshop

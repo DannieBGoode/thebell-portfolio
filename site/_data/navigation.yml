@@ -2,7 +2,7 @@
 menu__items:
   - title: Home
     url: /
-  - title: Home2
-    url: /home/
+  - title: Projects
+    url: /projects/
   - url: /about/
     title: About
