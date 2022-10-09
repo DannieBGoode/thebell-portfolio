@@ -2,6 +2,7 @@
 published: true
 title: Imdb Redesign
 subtitle: Product Design
+date: 2021-10-10T11:40:30.553Z
 description: Imdb Redesign
 image: /images/projects/imdb/imdb-cover.png
 ---
