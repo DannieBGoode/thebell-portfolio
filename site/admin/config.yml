@@ -105,7 +105,9 @@ collections:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: '_project' }
       - { label: 'Published', name: 'published', widget: 'boolean', hint: 'Enable this checkbox to publish the project so that it is visible', default: true}
       - { label: 'Title', name: 'title', hint: 'Title that will be displayed for this project', widget: 'string' }
+      - { label: 'Title', name: 'title', hint: 'Title that will be displayed for this project', widget: 'string' }
       - { label: 'Subtitle', name: 'subtitle', hint: 'Text under the project title', widget: 'string' }
+      - { label: 'Date', name: 'date', widget: 'date', required: false, hint: 'More recents projects will be displayed first'}
       - { label: 'Description', name: 'description', hint: 'Description for SEO purposes', widget: 'string' }
       - { label: 'Cover Image', name: 'image', widget: 'image', hint: 'Thumbnail image' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
