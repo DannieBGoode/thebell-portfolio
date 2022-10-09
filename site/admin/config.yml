@@ -15,7 +15,7 @@ collections:
         name: "general"
         file: "site/_data/general_settings.yml"
         fields: 
-          - { label: Title, name: title, widget: string, hint: 'Website title that appears on every page on the top left.' }
+          - { label: Title, name: title, widget: string, hint: 'Website title that appears on every page on the top left and on the footer.' }
           - { label: Description, name: description, widget: string, hint: 'Website description for SEO.' }
           - { label: Social Media on Topnav, name: social_media_on_topnav, widget: boolean, hint: 'If enabled, social icons will be displayed in the top right and the nav menu moved to the top left.' }
           - { label: Social Share Image, name: social_media_share_image, widget: image, choose_url: true, hint: 'When sharing this website this image will be used.' }

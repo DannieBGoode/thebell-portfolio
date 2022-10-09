@@ -23,7 +23,7 @@
           {% endfor %}
         </ul>
 
-        <div class="copyright {{ whiteFooter }}">{{ site.data.footer.copyright_text_html }}</div>
+        <div class="copyright {{ whiteFooter }}"><p>{{ site.time | date: '%Y' }} &copy; {{ site.data.general_settings.title }}</p></div>
 
       </div>
     </div>
