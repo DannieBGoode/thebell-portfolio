@@ -1,9 +1,10 @@
 ---
-date: 2021-01-11 07:40:35 +0300
+published: false
 title: Mountains
 subtitle: Photography
-image: '/images/project-4.jpg'
-published: false
+date: 2020-01-10T23:00:00.000Z
+description: Mountains
+image: /images/project-4.jpg
 ---
 
 In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem.
