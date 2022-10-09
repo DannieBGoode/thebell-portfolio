@@ -1,9 +1,10 @@
 ---
-date: 2021-01-12 07:50:35 +0300
+published: false
 title: Sea and rest
 subtitle: Photography
-image: '/images/project-3.jpg'
-published: false
+date: 2019-07-10T03:50:35.000Z
+description: Sea and rest
+image: /images/project-3.jpg
 ---
 
 In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem.
