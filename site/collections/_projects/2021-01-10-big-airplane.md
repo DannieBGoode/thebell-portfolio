@@ -1,9 +1,10 @@
 ---
-date: 2021-01-10 07:30:35 +0300
+published: false
 title: Big airplane
 subtitle: Photography
-image: '/images/project-5.jpg'
-published: false
+date: 2020-01-09T23:00:00.000Z
+description: Big airplane
+image: /images/project-5.jpg
 ---
 
 In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem.
