@@ -109,6 +109,7 @@ collections:
       - { label: 'Subtitle', name: 'subtitle', hint: 'Text under the project title', widget: 'string' }
       - { label: 'Date', name: 'date', widget: 'date', date_format: "DD.MMM.YYYY", required: false, hint: 'More recents projects will be displayed first'}
       - { label: 'Description', name: 'description', hint: 'Description for SEO purposes', widget: 'string' }
+      - { label: 'Show Header Image on top of article', name: 'showHeaderImage', widget: 'boolean', hint: 'Thumbnail image shows on the top of the page', default: false }
       - { label: 'Cover Image', name: 'image', widget: 'image', hint: 'Thumbnail image' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       
