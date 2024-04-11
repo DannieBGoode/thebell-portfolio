@@ -6,3 +6,5 @@ menu__items:
     url: /projects/
   - url: /about/
     title: About
+  - url: /contact/
+    title: Contact

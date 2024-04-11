@@ -5,6 +5,7 @@ description: I am a Sr <b>Product Designer</b> specialised in <b>Web3</b>, that
   href="https://moralis.io">Moralis.io</a></u></b>
 image: /assets/uploads/tatiana1.jpg
 image_alt: thebell-portfolio
+show_cta_buttons: false
 cta_button: Get in touch
 cta_button_link: "#contact"
 works_button: See my works

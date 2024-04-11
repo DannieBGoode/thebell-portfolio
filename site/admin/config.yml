@@ -55,14 +55,15 @@ collections:
       fields: 
         - { label: Title, name: title, widget: string, hint: 'Hero title.' }
         - { label: Subtitle, name: description, widget: string, hint: 'Description under the hero title.' }
-        - { label: Hero Image, name: image, widget: image, choose_url: true, hint: 'Image used for the Hero' }
-        - { label: Image Alt, name: image_alt, widget: string, hint: 'Image description for SEO purposes' }
+        #- { label: Hero Image, name: image, widget: image, choose_url: true, hint: 'Image used for the Hero' }
+        #- { label: Image Alt, name: image_alt, widget: string, hint: 'Image description for SEO purposes' }
+        - { label: 'Show CTA Buttons', name: 'show_cta_buttons', widget: 'boolean', hint: 'Enable this checkbox to display CTA buttons in the hero', default: true}
         - { label: Main CTA Text, name: cta_button, widget: string, hint: 'Button text for main CTA that takes you to the contact section' }
         - { label: Main CTA Link, name: cta_button_link, widget: hidden, hint: 'Link for main CTA' }
         - { label: Secondary CTA Text, name: works_button, widget: string, hint: 'Button text for secondary CTA that takes you to the project section' }
         - { label: Secondary CTA Link, name: works_button_link, widget: hidden, hint: 'Link for secondary CTA' }
         - { label: Projects Title, name: projects_title, widget: string, hint: 'Title of Projects section in the homepage.' }
-        - { label: Projects Description, name: projects_description, widget: string, hint: 'Description under the Project section title.' }
+        - { label: Projects Description, name: projects_description, widget: string, required: false, hint: 'Description under the Project section title.' }
         - { label: Show Projects, name: show_projects, widget: hidden, hint: 'Are projects displayed in the homepage' }
     - label: "Projects Page"
       name: "projects"
