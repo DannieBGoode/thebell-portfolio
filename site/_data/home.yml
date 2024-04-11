@@ -9,7 +9,6 @@ cta_button: Get in touch
 cta_button_link: "#contact"
 works_button: See my works
 works_button_link: "#projects"
-projects_title: Some of my work
-projects_description: I show only my best works built completely with passion,
-  simplicity, and creativity!
+projects_title: Past Projects
+projects_description: <b></b>
 show_projects: true
