@@ -1,9 +1,9 @@
 ---
 published: true
-title: "Retail Dashboard"
+title: Retail Dashboard
 subtitle: Case Study
-image: /assets/uploads/1c346b137596489.y3jvccwymzuzlde4ndasmcww.png
 date: 2024-01-03T11:32:42.218Z
+image: /site/assets/uploads/results.png
 ---
 
 This is a case study for a Retail platform UX Flow improvement.
